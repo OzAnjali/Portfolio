@@ -1,0 +1,303 @@
+.home-container {
+  width: 90%;
+  height: 600px;
+  background-color: #f5f5dc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  scroll-margin-top: 100px;
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+}
+.home-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hello-home {
+  font-size: 25px;
+}
+.home-name {
+  font-size: 50px;
+}
+.home-name-main {
+  color: brown;
+}
+.home-prof {
+  margin-top: 15px;
+  width: 340px;
+  font-size: 20px;
+  padding: 8px 50px;
+  border-radius: 25px;
+  background: rgba(162, 132, 94, 0.19);
+}
+.home-para {
+  max-width: 500px;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 30px;
+}
+.home-about {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  background: rgba(162, 132, 94, 0.68);
+  border-radius: 25px;
+  gap: 14px;
+  padding: 5px 61px;
+  margin-left: 90px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.home-abt-text {
+  font-size: 18px;
+}
+.home-abt-img {
+  width: 40px;
+  height: 40px;
+}
+.home-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home-quote img {
+  width: 180px;
+  height: 180px;
+}
+.home-quote {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.home-quote p {
+  font-size: 18px;
+  max-width: 240px;
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .home-container {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    gap: 25px;
+  }
+  .home-left {
+    width: 100%;
+    gap: 12px;
+  }
+  .hello-home {
+    font-size: 22px;
+  }
+  .home-name {
+    font-size: 30px;
+  }
+  .home-prof {
+    margin-top: 10px;
+    width: 250px;
+    font-size: 16px;
+    padding: 6px 32px;
+  }
+  .home-para {
+    max-width: 500px;
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 24px;
+  }
+  .home-about {
+    width: 250px;
+    gap: 10px;
+    padding: 4px 50px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .home-abt-text {
+    font-size: 16px;
+  }
+  .home-abt-img {
+    width: 30px;
+    height: 30px;
+  }
+  .home-right {
+    gap: 15px;
+  }
+  .home-quote img {
+    width: 100px;
+    height: 100px;
+  }
+  .home-quote p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  .home-container {
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+  }
+  .home-left {
+    width: 50%;
+    gap: 12px;
+  }
+  .hello-home {
+    font-size: 22px;
+  }
+  .home-name {
+    font-size: 30px;
+  }
+  .home-prof {
+    margin-top: 10px;
+    width: 250px;
+    font-size: 16px;
+    padding: 6px 32px;
+  }
+  .home-para {
+    max-width: 500px;
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 24px;
+  }
+  .home-about {
+    width: 250px;
+    gap: 10px;
+    padding: 4px 50px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .home-abt-text {
+    font-size: 16px;
+  }
+  .home-abt-img {
+    width: 30px;
+    height: 30px;
+  }
+  .home-right {
+    gap: 15px;
+  }
+  .home-quote img {
+    width: 100px;
+    height: 100px;
+  }
+  .home-quote p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+  .home-container {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+  }
+  .home-left {
+    width: 50%;
+    gap: 12px;
+  }
+  .hello-home {
+    font-size: 25px;
+  }
+  .home-name {
+    font-size: 35px;
+  }
+  .home-prof {
+    margin-top: 12px;
+    width: 280px;
+    font-size: 18px;
+    padding: 6px 35px;
+  }
+  .home-para {
+    max-width: 500px;
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 24px;
+  }
+  .home-about {
+    width: 280px;
+    gap: 10px;
+    padding: 5px 50px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .home-abt-text {
+    font-size: 18px;
+  }
+  .home-abt-img {
+    width: 30px;
+    height: 30px;
+  }
+  .home-right {
+    gap: 15px;
+  }
+  .home-quote img {
+    width: 120px;
+    height: 120px;
+  }
+  .home-quote p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+  .home-container {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+  }
+  .home-left {
+    width: 50%;
+    gap: 12px;
+  }
+  .hello-home {
+    font-size: 25px;
+  }
+  .home-name {
+    font-size: 35px;
+  }
+  .home-prof {
+    margin-top: 12px;
+    width: 280px;
+    font-size: 18px;
+    padding: 6px 35px;
+  }
+  .home-para {
+    max-width: 500px;
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 24px;
+  }
+  .home-about {
+    width: 280px;
+    gap: 10px;
+    padding: 5px 50px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .home-abt-text {
+    font-size: 18px;
+  }
+  .home-abt-img {
+    width: 30px;
+    height: 30px;
+  }
+  .home-right {
+    gap: 15px;
+  }
+  .home-quote img {
+    width: 120px;
+    height: 120px;
+  }
+  .home-quote p {
+    font-size: 18px;
+  }
+}

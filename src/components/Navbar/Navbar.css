@@ -1,0 +1,220 @@
+.nav-main {
+  height: 80px;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(221, 184, 135, 0.68);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+}
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: brown;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover {
+  color: brown;
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+.nav-links a.active {
+  color: brown;
+}
+.nav-links a.active::after {
+  width: 100%;
+  background-color: brown;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.cv-download {
+  padding: 0px 25px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgba(162, 132, 94, 0.68);
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+.cv-download:hover {
+  background: rgb(177, 136, 75);
+}
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nav-menu {
+  display: none;
+}
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .nav-main {
+    padding: 22px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+    width: 50px;
+    cursor: pointer;
+  }
+  .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+  .nav-right {
+    gap: 12px;
+  }
+  .cv-download {
+    padding: 0px 20px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .sidebar {
+    position: fixed;
+    display: block;
+    top: 80px;
+    right: -100%;
+    width: 70%;
+    height: calc(100vh - 80px);
+    background: rgba(221, 184, 135);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: right 0.3s ease;
+    z-index: 999;
+  }
+  .sidebar.open {
+    right: 0;
+  }
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  .sidebar-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  .sidebar-links a.active {
+    color: brown;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .nav-main {
+    padding: 22px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+    width: 50px;
+    cursor: pointer;
+  }
+  .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+  .nav-right {
+    gap: 12px;
+  }
+  .cv-download {
+    padding: 0px 20px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .sidebar {
+    position: fixed;
+    display: block;
+    top: 80px;
+    right: -100%;
+    width: 70%;
+    height: calc(100vh - 80px);
+    background: rgba(221, 184, 135);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: right 0.3s ease;
+    z-index: 999;
+  }
+  .sidebar.open {
+    right: 0;
+  }
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  .sidebar-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  .sidebar-links a.active {
+    color: brown;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 720px) {
+  .nav-main {
+    padding: 22px;
+  }
+  .nav-links {
+    gap: 18px;
+  }
+  .nav-right {
+    gap: 8px;
+  }
+  .cv-download {
+    padding: 0px 18px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+}

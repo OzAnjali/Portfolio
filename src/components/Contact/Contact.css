@@ -1,0 +1,212 @@
+.contact-container {
+  width: 90%;
+  background-color: #f5f5dc;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  scroll-margin-top: 100px;
+  padding: 50px 120px;
+  gap: 30px;
+}
+.contact-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contact-loc {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.contact-loc-img {
+  width: 28px;
+  height: 28px;
+}
+.contact-loc a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.get-in-touch {
+  color: #716868;
+  font-size: 24px;
+}
+.contact-form {
+  display: flex;
+  align-items: end;
+  gap: 50px;
+  margin-left: 120px;
+}
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-input {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #d9d9d9;
+  width: 350px;
+}
+.contact-submit {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 24px;
+  font-size: 24px;
+  background: #d9d9d9;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #3d3838;
+}
+.submit-img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .contact-container {
+    padding: 20px;
+    gap: 20px;
+  }
+  .contact-loc-img {
+    width: 25px;
+    height: 25px;
+  }
+  .contact-loc a {
+    font-size: 14px;
+  }
+  .get-in-touch {
+    font-size: 20px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-left: 0;
+  }
+  .contact-input {
+    padding: 8px 15px;
+    width: 100%;
+  }
+  .contact-submit {
+    gap: 10px;
+    padding: 8px 14px;
+    font-size: 18px;
+  }
+  .submit-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+  .contact-container {
+    padding: 20px;
+    gap: 20px;
+  }
+  .contact-loc-img {
+    width: 28px;
+    height: 28px;
+  }
+  .contact-loc a {
+    font-size: 16px;
+  }
+  .get-in-touch {
+    font-size: 20px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-left: 0;
+  }
+  .contact-input {
+    padding: 8px 15px;
+    width: 300px;
+  }
+  .contact-submit {
+    gap: 10px;
+    padding: 8px 14px;
+    font-size: 18px;
+  }
+  .submit-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  .contact-container {
+    padding: 20px;
+    gap: 20px;
+  }
+  .contact-loc-img {
+    width: 30px;
+    height: 30px;
+  }
+  .contact-loc a {
+    font-size: 18px;
+  }
+  .get-in-touch {
+    font-size: 25px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-left: 0;
+  }
+  .contact-input {
+    padding: 10px 25px;
+    width: 350px;
+  }
+  .contact-submit {
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 22px;
+  }
+  .submit-img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+  .contact-container {
+    padding: 30px;
+  }
+  .contact-form {
+    gap: 30px;
+    margin-left: 30px;
+  }
+  .contact-submit {
+    padding: 8px 15px;
+    font-size: 20px;
+  }
+  .submit-img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+  .contact-container {
+    padding: 40px;
+  }
+  .contact-form {
+    gap: 30px;
+    margin-left: 60px;
+  }
+}
